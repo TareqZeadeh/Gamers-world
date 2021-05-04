@@ -1,0 +1,39 @@
+body{
+  margin: 0%;
+  background-color:#4A5A6B;
+}
+header{
+   color:black;
+   height: 100px;
+  background-color:#5BA1EB ;
+  
+}
+header h1
+{
+  text-align: center;
+ font-size: 300%;
+}
+#f1{
+background-color:#487EB8;
+margin-right:25%;
+margin-left:15%;
+width:50%;
+height:280%;
+ padding: 0 10% 5% 15%;
+
+}
+#f1 h2{
+  font-size:180%;
+  color:#2A496B;
+  text-align: center;
+ 
+}
+#f1 p{
+  font-size:140%;
+  text-align: center;
+
+}
+#s2{
+   background-color: #0049B8;
+   margin-bottom:50px; 
+}
