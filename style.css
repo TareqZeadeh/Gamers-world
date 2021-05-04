@@ -15,8 +15,7 @@ header h1
 }
 #f1{
 background-color:#487EB8;
-margin-right:25%;
-margin-left:15%;
+margin-left:25px;
 width:50%;
 height:280%;
  padding: 0 10% 5% 15%;
@@ -36,4 +35,34 @@ height:280%;
 #s2{
    background-color: #0049B8;
    margin-bottom:50px; 
+}.cl-s p{
+   float: right;
+  margin-bottom: 60px;
+  margin-right: 100px;
+  font-size: 140%;
+  color: #002E6B;
+
+}
+.cl-s h5{
+  float: right;
+  margin-right: 100px;
+  font-size: 150%;
+  color: #002E6B;
+
+}
+footer h4{
+  text-align: center;
+  font-saiz: 150%;
+  width: 90%;
+  margin-left: 30px;
+
+}
+
+footer nav{
+  text-align: center;
+  width: 90%;
+  margin-top: 15px;
+  display: inline-block;
+
+
 }
