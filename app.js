@@ -6,7 +6,7 @@ while ( faivoretgame !=='pubg' && faivoretgame!=='cod' ){
 var hours=prompt('How many hours do you spend playing your favorite game')
  if (faivoretgame =='pubg'){
 
-   for(i=0; i<hours;i++){
+   for( var i=0; i<hours;i++){
 
       document.write('<img src="https://www.91-cdn.com/hub/wp-content/uploads/2021/04/pubg-lite-shut-down-image.jpg"  width="300px">');
 
@@ -16,7 +16,7 @@ var hours=prompt('How many hours do you spend playing your favorite game')
 
  else if (faivoretgame =='cod'){
 
-   for(i=0; i<hours;i++){
+   for( var i=0; i<hours;i++){
 
        document.write('<img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mw-wz/WZ-Season-Three-Announce-TOUT.jpg" width="300px">');
 
