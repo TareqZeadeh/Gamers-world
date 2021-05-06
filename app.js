@@ -1,9 +1,30 @@
 alert('Welcome in our Website');
 
 var faivoretgame=prompt('what do you like more pubg or cod ?');
+while ( faivoretgame !=='pubg' && faivoretgame!=='cod' ){
+ faivoretgame = prompt('please only answer with pubg or cod');}
+var hours=prompt('How many hours do you spend playing your favorite game')
+ if (faivoretgame =='pubg'){
+
+   for(i=0; i<hours;i++){
+
+      document.write('<img src="https://www.91-cdn.com/hub/wp-content/uploads/2021/04/pubg-lite-shut-down-image.jpg"  width="300px">');
 
 
-if(faivoretgame =='pubg'){
+   }
+ }
+
+ else if (faivoretgame =='cod'){
+
+   for(i=0; i<hours;i++){
+
+       document.write('<img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mw-wz/WZ-Season-Three-Announce-TOUT.jpg" width="300px">');
+
+
+   }
+ }
+
+/*if(faivoretgame =='pubg'){
 
   document.write('<img src="https://www.91-cdn.com/hub/wp-content/uploads/2021/04/pubg-lite-shut-down-image.jpg"  width="300px">');
 
@@ -32,4 +53,4 @@ if (likefreefire == true) {
   
 } else {
  alert('well ... pubg and cod is more Enthusiastic Battlefield games ... Good Luck'); 
-}
+}*/
