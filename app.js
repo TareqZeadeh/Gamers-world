@@ -1,6 +1,58 @@
 alert('Welcome in our Website');
 
-var faivoretgame=prompt('what do you like more pubg or cod ?');
+function printfavorite()
+{
+  var faivoretgame=prompt('what do you like more pubg or cod ?');
+while ( faivoretgame !=='pubg' && faivoretgame!=='cod' ){
+ faivoretgame = prompt('please only answer with pubg or cod');}
+var hours=prompt('How many hours do you spend playing your favorite game')
+var picturofthegame='';
+ if (faivoretgame =='pubg'){
+
+   for( var i=0; i<hours;i++){
+
+    picturofthegame =picturofthegame + '<img src="https://www.91-cdn.com/hub/wp-content/uploads/2021/04/pubg-lite-shut-down-image.jpg"  width="300px">';
+      /*document.write('<img src="https://www.91-cdn.com/hub/wp-content/uploads/2021/04/pubg-lite-shut-down-image.jpg"  width="300px">');*/
+
+
+   }
+ }
+
+ else if (faivoretgame =='cod'){
+
+   for( var i=0; i<hours;i++){
+picturofthegame = picturofthegame +'<img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mw-wz/WZ-Season-Three-Announce-TOUT.jpg" width="300px">';
+       /*document.write('<img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mw-wz/WZ-Season-Three-Announce-TOUT.jpg" width="300px">');*/
+
+
+   }
+ }
+ return picturofthegame;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var faivoretgame=prompt('what do you like more pubg or cod ?');
 while ( faivoretgame !=='pubg' && faivoretgame!=='cod' ){
  faivoretgame = prompt('please only answer with pubg or cod');}
 var hours=prompt('How many hours do you spend playing your favorite game')
@@ -23,6 +75,21 @@ var hours=prompt('How many hours do you spend playing your favorite game')
 
    }
  }
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*if(faivoretgame =='pubg'){
 
