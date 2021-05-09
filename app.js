@@ -32,6 +32,24 @@ picturofthegame = picturofthegame +'<img src="https://imgs.callofduty.com/conten
 
 
 
+var freefire=function()
+{
+  var likefreefire = confirm("Do you like free fire");
+if (likefreefire == true) {
+
+
+  document.write('<img src="https://venturebeat.com/wp-content/uploads/2020/05/Garena-Free-Fire.jpg?w=1200&strip=all" width="300px">');
+   document.write('<a href="https://free-fire-battlegrounds.ar.uptodown.com/android/download">download it here for mobile </a>');
+  
+} else {
+ alert('well ... pubg and cod is more Enthusiastic Battlefield games ... Good Luck'); 
+}
+}
+document.write(freefire());
+
+
+
+
 
 
 
